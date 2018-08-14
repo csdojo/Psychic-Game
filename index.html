@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta charset="UTF-8">
+  <title>PsychicGame</title>
+  <link rel="stylesheet" href="assets/css/reset.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+</head>
+
+
+
+
+<body>
+  <div class="container">
+    <div class="row">
+      <header style="width: 100%" class="text-center">
+        <h1>The Psychic Game</h1>
+      </header>
+
+    </div>
+    <div class="row">
+      <h3 style="width: 100%" class="text-center">Guess what letter I'm thinking of</h3>
+    </div>
+    <div class="row">
+      <div class="col-3">
+        <div class="reader rounded float-left">
+          <img class="img-fluid" style="width: 500px;" src="assets/images/reader.jpg" alt="">
+        </div>
+      </div>
+      <div class="col-6">
+        <div id="game">
+          <div class="container2">
+              <ul class="list-group">
+                  <li style="height: 66px;" class="list-group-item">
+                    <span id="wins">Wins: </span>
+                  </li>
+                  <li class="list-group-item">
+                    <p id="losses">Losses: </p>
+                  </li>
+                  <li class="list-group-item">
+                    <p id="guessLeft">Guesses Left: </p>
+                  </li>
+                  <li class="list-group-item">
+                    <p id="let">Your Guesses so far: </p>
+                  </li>
+                </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-3">
+      </div>
+    </div>
+
+    <div class="row">
+        <img style="width: 25%;height: 25%; margin:auto" class="mySlides w3-animate-fading" src="assets/images/ppp.png">
+    </div>
+    
+    <div style="margin-top: -5px;" class="row">
+        <div class="col-12 fixed-bottom">
+          <div style="width: 100%" class="footer text-center">
+            <p>Copyright &copy;</p>
+          </div>
+        </div>
+      </div>
+  </div>
+
+
+
+
+  <!-- </div>
+  <h1>The Psychic Game</h1>
+  <p>Guess what letter I'm thinking of</p>
+  <p>Wins: </p> -->
+
+  <script type="text/javascript" src="assets/javascript/game.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>
